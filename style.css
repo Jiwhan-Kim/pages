@@ -327,7 +327,7 @@ h3 {
 }
 
 .contact-panel {
-  max-width: 760px;
+  max-width: var(--max-width);
   padding: 26px;
 }
 
