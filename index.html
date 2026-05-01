@@ -3,17 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Personal academic homepage for Jiwhan Kim.">
+  <meta name="description" content="Personal homepage for Jiwhan Kim.">
   <title>Jiwhan Kim | Academic Homepage</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!--
-    Personal Academic Homepage
-    Edit the text inside each section below to customize your site.
-    This site uses only HTML and CSS, so it works directly on GitHub Pages.
-  -->
-
   <header class="site-header">
     <nav class="nav container" aria-label="Main navigation">
       <a class="nav-brand" href="#home">Jiwhan Kim</a>
@@ -43,8 +37,7 @@
           <h1>Jiwhan Kim</h1>
           <p class="lead">
             I am an undergraduate student majoring in System Semiconductor Engineering
-            at Yonsei University. My interests include ML for EDA, RTL-to-PPA
-            prediction, semiconductor design automation, and quantum computing.
+            at Yonsei University. My interests include ML for EDA and quantum computing.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#publications">View Publications</a>
@@ -65,12 +58,12 @@
         <div class="timeline">
           <!-- Copy this education item to add another degree or program -->
           <article class="timeline-item">
-            <div class="timeline-date">2021 - Present</div>
+            <div class="timeline-date">2021. 03. - 2026. 08.</div>
             <div class="timeline-content">
               <h3>B.S. in System Semiconductor Engineering</h3>
               <p class="meta">Yonsei University · Seoul, South Korea</p>
               <p>
-                Courseworks: Digital Microelectronics, Digital IC Design Lab, Introduction to Machine Learning, Quantum Machine Learning
+                Digital Microelectronics, Digital IC Design Lab, Introduction to Machine Learning, Quantum Machine Learning
               </p>
             </div>
           </article>
@@ -90,24 +83,40 @@
         <div class="card-grid">
           <!-- Copy this experience card to add another role -->
           <article class="card">
-            <div class="card-topline">2023 - 2026</div>
+            <div class="card-topline">2023. 07. - 2026. 08.</div>
             <h3>Undergraduate Researcher</h3>
             <p class="meta">DATES Lab · Yonsei University</p>
             <p>
-              Short description of your research role, responsibilities, tools used,
-              and outcomes. Replace this placeholder with your actual experience.
+              Machine learning architectures for mobile devices.
+            </p>
+            <p>
+              RTL-to-GDSII flow using Synopsys tools.
+            </p>
+            <p>
+              Machine learning for EDA.
+            </p>
+            <p>
+              Placement and routing algorithms for fault-tolerant quantum computing (FTQC).
             </p>
           </article>
 
           <article class="card">
-            <div class="card-topline">2023 - 2025</div>
+            <div class="card-topline">2023. 10. - 2025. 07.</div>
             <h3>Intelligent Information Systems Management Group</h3>
             <p class="meta">Republic of Korea Air Force</p>
             <p>
-              Web Frontend Developer.
+              Frontend web developer using vanilla HTML, CSS, JavaScript, and React.
             </p>
           </article>
-          <!-- Add new experience card here -->
+
+          <article class="card">
+            <div class="card-topline">2023. 09. - 2023. 10.</div>
+            <h3>Teaching Assistant for Engineering Information Processing (ENG1108)</h3>
+            <p class="meta">Department of System Semiconductor Engineering · Yonsei University</p>
+            <p>
+              Teaching assistant for ENG1108: C Language.
+            </p>
+          </article>
         </div>
       </div>
     </section>
@@ -123,12 +132,30 @@
         <div class="entry-list">
           <!-- Copy this publication block to add another publication -->
           <article class="entry">
-            <h3>Publication Title Placeholder</h3>
+            <h3>Phase-Adaptive Placement Framework for Fault-Tolerant Quantum Computing (Submitted)</h3>
             <p class="meta">
-              Jiwhan Kim, Coauthor Name, and Advisor Name · Design Automation Conference· 2026
+              Y. Kang, T.-M. Park, J. Kim, Y.-B. Kong and J.-S. Yang · International Conference on Computer-Aided Design · 2026
             </p>
             <p>
-              One-sentence summary of the paper, result, or contribution.
+              Detects low-activity phases for dynamic qubit relocation.
+            </p>
+            <div class="entry-links">
+              <a href="#" aria-label="Paper link">Paper</a>
+              <a href="#" aria-label="Code link">Code</a>
+              <a href="#" aria-label="BibTeX link">BibTeX</a>
+            </div>
+          </article>
+          <!-- Add new publication here -->
+        </div>
+        <div class="entry-list">
+          <!-- Copy this publication block to add another publication -->
+          <article class="entry">
+            <h3>Test Point Insertion with ATPG-Free Self-Supervised Learning</h3>
+            <p class="meta">
+              T.-M. Park, S.-H. Cho, J.-Y. Lee, J. Kim, N.A. Touba and J.-S. Yang · Design Automation Conference · 2026
+            </p>
+            <p>
+              Uses explainable AI to identify test points.
             </p>
             <div class="entry-links">
               <a href="#" aria-label="Paper link">Paper</a>
@@ -155,19 +182,24 @@
             <div class="card-topline">ML for EDA</div>
             <h3>RTL-to-PPA Prediction</h3>
             <p>
-              Placeholder description for a project involving machine learning models
-              that estimate power, performance, and area from RTL design features.
             </p>
             <a class="text-link" href="#">Project link</a>
           </article>
-          <!-- Add new project here -->
 
           <article class="card">
             <div class="card-topline">Quantum Computing</div>
-            <h3>Quantum Circuit Analysis</h3>
+            <h3>Initial Parameter Prediction of PQC</h3>
             <p>
-              Placeholder description for a quantum computing project, simulator,
-              compiler pass, or circuit optimization experiment.
+              Predicts initial parameters for the Quantum Approximate Optimization Algorithm (QAOA) on graphs using Graph Neural Networks (GNNs).
+            </p>
+            <a class="text-link" href="#">Project link</a>
+          </article>
+
+          <article class="card">
+            <div class="card-topline">RTL-to-GDSII Flow</div>
+            <h3>Layout Implementation of an ML Accelerator (2025)</h3>
+            <p>
+              Synthesis and PnR using a 32 nm process.
             </p>
             <a class="text-link" href="#">Project link</a>
           </article>
@@ -188,8 +220,6 @@
             <h3>Research Areas</h3>
             <ul class="tag-list">
               <li>ML for EDA</li>
-              <li>RTL-to-PPA Prediction</li>
-              <li>Semiconductor Design Automation</li>
               <li>Quantum Computing</li>
             </ul>
           </div>
@@ -197,13 +227,11 @@
           <div>
             <h3>Technical Skills</h3>
             <ul class="tag-list">
-              <li>C/C++</li>
-              <li>CUDA</li>
-              <li>Python</li>
-              <li>Verilog / SystemVerilog</li>
-              <li>Linux</li>
-              <li>Git</li>
+              <li>C/C++/CUDA</li>
+              <li>Verilog</li>
               <li>Machine Learning</li>
+              <li>RTL-to-GDSII</li>
+              <li>Qiskit</li>
             </ul>
           </div>
         </div>
@@ -215,7 +243,7 @@
       <div class="container">
         <div class="section-heading">
           <p class="eyebrow">Recognition</p>
-          <h2>Honors / Awards</h2>
+          <h2>Honors & Awards</h2>
         </div>
 
         <div class="entry-list">
@@ -223,22 +251,27 @@
           <article class="entry compact">
             <h3>Highest Honors</h3>
             <p class="meta">Yonsei University · 2nd Semester, 2025</p>
-            <p>Short description of the award, scholarship, competition, or recognition.</p>
+            <p>Ranked in the top 1% of the College of Engineering.</p>
+          </article>
+          <article class="entry compact">
+            <h3>Advanced Software Test</h3>
+            <p class="meta">Samsung Electronics, 2024</p>
+            <p>Passed the advanced-level software test.</p>
           </article>
           <article class="entry compact">
             <h3>High Honors</h3>
             <p class="meta">Yonsei University · 1st Semester, 2023</p>
-            <p>Short description of the award, scholarship, competition, or recognition.</p>
+            <p>Ranked in the top 3% of the College of Engineering.</p>
           </article>
           <article class="entry compact">
             <h3>High Honors</h3>
             <p class="meta">Yonsei University · 1st Semester, 2022</p>
-            <p>Short description of the award, scholarship, competition, or recognition.</p>
+            <p>Ranked in the top 3% of the College of Engineering.</p>
           </article>
           <article class="entry compact">
             <h3>Honors</h3>
             <p class="meta">Yonsei University · 2nd Semester, 2021</p>
-            <p>Short description of the award, scholarship, competition, or recognition.</p>
+            <p>Ranked in the top 10% of the college.</p>
           </article>
           <!-- Add new award here -->
         </div>
@@ -263,7 +296,7 @@
           <ul class="contact-list">
             <li><strong>Email:</strong> <a href="mailto:jiwhan1015@yonsei.ac.kr">jiwhan1015@yonsei.ac.kr</a></li>
             <li><strong>GitHub:</strong> <a href="https://github.com/jiwhan-kim">https://github.com/jiwhan-kim</a></li>
-            <li><strong>Notion:</strong> <a href="https://kimjw21.notion.site">https://github.com/jiwhan-kim</a></li>
+            <li><strong>Notion:</strong> <a href="https://kimjw21.notion.site">https://kimjw21.notion.site</a></li>
             <!-- <li><strong>Google Scholar:</strong> <a href="#">Google Scholar profile</a></li> -->
             <!-- <li><strong>LinkedIn:</strong> <a href="#">LinkedIn profile</a></li> -->
           </ul>
@@ -274,7 +307,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; 2026 Jiwhan Kim. Built with plain HTML and CSS.</p>
+      <p>&copy; 2026 Jiwhan Kim.</p>
     </div>
   </footer>
 </body>
